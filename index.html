@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Системи охолодження процесорів — CPU Cooling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#screen1" class="logo">THERMAL<span>LAB</span></a>
+            <nav class="main-nav">
+                <a href="#screen1">Головна</a>
+                <a href="#screen2">Типи систем</a>
+                <a href="#screen3">Порівняння</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="screen1" class="screen hero-section">
+            <div class="container hero-layout">
+                <div class="hero-content">
+                    <span class="badge">Апаратна інженерія ПК</span>
+                    <h1>Типи охолодження<br><span>процесорів</span></h1>
+                    <p class="hero-text">
+                        Сучасні процесори виділяють від 65 до 250+ Вт тепла під навантаженням.
+                        Правильно підібрана система відведення тепла запобігає тротлінгу,
+                        знижує рівень шуму та подовжує ресурс кристала й зони VRM.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#screen2" class="btn-primary">Огляд технологій</a>
+                        <a href="https://www.bequiet.com/" target="_blank" rel="noopener" class="btn-outline">Сайт-зразок</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <strong>65–300 Вт</strong>
+                            <span>Діапазон TDP</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>18–35 дБА</strong>
+                            <span>Комфортний шум</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>&lt; 80 °C</strong>
+                            <span>Цільова температура</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <img src="img/hero-cooler.jpg" alt="Процесорний кулер у корпусі ПК">
+                </div>
+            </div>
+        </section>
+
+        <section id="screen2" class="screen types-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Класифікація</span>
+                    <h2>Три основні архітектури охолодження</h2>
+                    <p>Від надійних мідних теплотрубок до індивідуальних рідинних контурів.</p>
+                </div>
+
+                <div class="cooling-grid">
+                    <article class="cooling-card">
+                        <div class="card-image">
+                            <img src="img/air-cooler.jpg" alt="Баштовий повітряний кулер">
+                        </div>
+                        <div class="card-body">
+                            <span class="tag">Повітряне (Air)</span>
+                            <h3>Баштові кулери</h3>
+                            <p>
+                                Тепло від кришки CPU передається через мідні теплові трубки
+                                на алюмінієвий радіатор і розсіюється вентиляторами.
+                            </p>
+                            <ul class="feature-list">
+                                <li>Максимальна надійність — нема чому протікати</li>
+                                <li>Оптимальна ціна для процесорів до 180–220 Вт</li>
+                                <li>Обслуговування зводиться до очищення від пилу</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="cooling-card">
+                        <div class="card-image">
+                            <img src="img/aio-cooler.jpg" alt="Система рідинного охолодження AIO">
+                        </div>
+                        <div class="card-body">
+                            <span class="tag">Рідинне (AIO)</span>
+                            <h3>Готові СРО (All-in-One)</h3>
+                            <p>
+                                Замкнений заводський контур із водоблоком, помпою та радіатором
+                                на 240, 280 або 360 мм, готовий до монтажу одразу з коробки.
+                            </p>
+                            <ul class="feature-list">
+                                <li>Висока теплоємність для пікових навантажень</li>
+                                <li>Вільний доступ до слотів ОЗП без перекриття</li>
+                                <li>Потребує контролю ресурсу помпи (3–6 років)</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="cooling-card">
+                        <div class="card-image">
+                            <img src="img/custom-loop.jpg" alt="Кастомна система рідинного охолодження">
+                        </div>
+                        <div class="card-body">
+                            <span class="tag">Ентузіаст (Custom)</span>
+                            <h3>Кастомний контур</h3>
+                            <p>
+                                Збірна система з окремого резервуара, потужної помпи D5/DDC,
+                                товстих мідних радіаторів і трубок під конкретний корпус.
+                            </p>
+                            <ul class="feature-list">
+                                <li>Рекордне тепловідведення (CPU + GPU в одному контурі)</li>
+                                <li>Мінімальний шум на низьких обертах вентиляторів</li>
+                                <li>Висока вартість та регулярна заміна рідини</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="screen3" class="screen comparison-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Аналітика та вибір</span>
+                    <h2>Порівняння ефективності систем</h2>
+                    <p>Оцінка відведення тепла, акустичного комфорту та доцільності під різні задачі.</p>
+                </div>
+
+                <div class="comparison-grid">
+                    <div class="table-card">
+                        <h3>Технічне порівняння</h3>
+                        <table class="spec-table">
+                            <thead>
+                                <tr>
+                                    <th>Тип системи</th>
+                                    <th>Макс. TDP</th>
+                                    <th>Шум</th>
+                                    <th>Ресурс</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Боксовий кулер</td>
+                                    <td>65–95 Вт</td>
+                                    <td>Високий</td>
+                                    <td>3–5 років</td>
+                                </tr>
+                                <tr>
+                                    <td>Баштовий (4–6 трубок)</td>
+                                    <td>150–250 Вт</td>
+                                    <td>Низький</td>
+                                    <td>7–10+ років</td>
+                                </tr>
+                                <tr>
+                                    <td>СРО AIO (240–360 мм)</td>
+                                    <td>220–320 Вт</td>
+                                    <td>Середній</td>
+                                    <td>3–6 років</td>
+                                </tr>
+                                <tr>
+                                    <td>Кастомний контур</td>
+                                    <td>400+ Вт</td>
+                                    <td>Мінімальний</td>
+                                    <td>Залежить від ТО</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="bars-card">
+                        <h3>Індекс ефективності відведення тепла</h3>
+
+                        <div class="bar-group">
+                            <div class="bar-label">
+                                <span>Боксовий кулер</span>
+                                <span>35%</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill level-1"></div>
+                            </div>
+                        </div>
+
+                        <div class="bar-group">
+                            <div class="bar-label">
+                                <span>Баштовий кулер</span>
+                                <span>72%</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill level-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="bar-group">
+                            <div class="bar-label">
+                                <span>СРО AIO 360 мм</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill level-3"></div>
+                            </div>
+                        </div>
+
+                        <div class="bar-group">
+                            <div class="bar-label">
+                                <span>Кастомна СРО</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill level-4"></div>
+                            </div>
+                        </div>
+
+                        <div class="guide-image">
+                            <img src="img/airflow-scheme.jpg" alt="Схема повітряного потоку в корпусі">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>Індивідуальний веб-проєкт (Модуль 1) — М'яновський Назар, група ФЕЛ-21</p>
+            <p>HTML5 + CSS3 | Дизайн за мотивами be quiet!</p>
+        </div>
+    </footer>
+</body>
+</html>
